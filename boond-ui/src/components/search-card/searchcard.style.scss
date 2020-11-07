@@ -1,0 +1,17 @@
+.styled-s-card{
+    width:80vw;
+    background:#1C1E28 !important;
+    border:1px solid #467DE3 !important;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.075), 0 0 4px rgba(102, 175, 233, 0.6);
+}
+.styled-s-card:hover, .styled-s-card:focus-within, .styled-s-card:focus{
+    box-shadow: inset 0 0 10px rgba(0,0,0,.075), 0 0 12px rgba(102, 175, 233, 0.6);
+}
+.search-card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

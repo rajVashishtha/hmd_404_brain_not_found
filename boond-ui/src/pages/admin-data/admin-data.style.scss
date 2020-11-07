@@ -1,0 +1,42 @@
+.MuiTableCell-root{
+    border: 2px solid #467DE3 !important;
+    color: #467DE3 !important;
+    font-family: Iceland !important;
+    line-height: 10px !important;
+    font-size: 20px !important;
+
+}
+.MuiTableCell-head{
+    line-height: 20px !important;
+    font-weight: bolder !important;
+    font-size: 25px !important;
+    background-color: #1C1E28 !important;
+}
+.slided-chart{
+    margin-left: 0px !important;
+}
+#sliding-id{
+    position: relative;
+    right: -800px;
+    z-index: 2;
+    -webkit-transition: right 1s;
+    -moz-transition: right 1s;
+    -o-transition: right 1s;
+    transition: right 1s;
+}
+#sliding-id.sliding-class{
+    right:5vw !important;
+}
+#slided-id{
+    position: relative;
+    top: 0;
+    z-index: 1;
+    margin-left: 25vw;
+    -webkit-transition:  1s;
+    -moz-transition:  1s;
+    -o-transition:  1s;
+    transition:  1s;
+}
+#slided-id.slided-chart{
+    margin-left: 5vw !important;
+}

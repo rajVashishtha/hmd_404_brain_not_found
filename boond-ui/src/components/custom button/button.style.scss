@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/css2?family=Iceland&display=swap";
+.button{
+    text-transform: uppercase;
+    color:#467DE3;
+    background-color: #232531;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 5px;
+    border: .5px solid #467DE3;
+    font-weight: bold;
+    font-family: Iceland;
+    cursor: pointer;
+}
+.button:hover{
+    text-shadow: 0 0 5px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 0 5px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}

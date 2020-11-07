@@ -1,0 +1,47 @@
+.for-search-field{
+    display: flex;
+    border: 1px solid #467DE3;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 40vw;
+    .for-real-search{
+        display: inline-flex;
+        align-items: center;
+        border-bottom: 2px solid grey;
+        padding-left: 10px;
+        padding-right: 10px;
+        input{
+            background: transparent;
+            height: 30px;
+            font-size: 20px;
+            border: none;
+            color:#467DE3;
+            width: 30vw;
+        }
+        input:focus{
+            outline: none;
+        }
+        &:focus-within{
+            border-bottom: 2px solid #467DE3 !important;
+        }
+        button{
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+.MuiTablePagination-root{
+    color:#467DE3 !important;
+}
+#distance-filter{
+    width:200px !important;
+    float: left;
+}
